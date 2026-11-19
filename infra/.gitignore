@@ -1,0 +1,11 @@
+# 本地变量（可能含账号/区域等敏感信息，禁止提交）
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Terraform 工作状态与缓存
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
